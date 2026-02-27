@@ -49,7 +49,8 @@ git push -u origin main
 ```
 
 3. GitHub settings:
-   - `Settings > Pages > Source: GitHub Actions`
+   - `Settings > Pages > Build and deployment > Source: Deploy from a branch`
+   - `Settings > Pages > Branch: gh-pages / (root)`
    - `Settings > Environments`: optional (`test`/`production`) without required reviewers
    - `Settings > Branches`: protect `main` and `develop` according to your governance policy
 

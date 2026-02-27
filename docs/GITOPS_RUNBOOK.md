@@ -56,7 +56,8 @@ git checkout main
 ## 3.1 Pages
 
 - Go to `Settings > Pages`.
-- Source: `GitHub Actions`.
+- Build and deployment source: `Deploy from a branch`.
+- Branch: `gh-pages` / `(root)`.
 
 ## 3.2 Actions permissions
 
@@ -149,7 +150,7 @@ git remote -v
 ## 7.2 GitHub Pages returns 404
 
 Checks:
-- `Settings > Pages` source must be `GitHub Actions`.
+- `Settings > Pages` source must be `Deploy from a branch` with `gh-pages` / `(root)`.
 - Confirm latest deploy workflow succeeded.
 - Inspect `gh-pages` branch content:
 

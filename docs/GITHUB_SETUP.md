@@ -21,7 +21,8 @@ Recommended baseline rules:
 
 ## 3) Pages and Environments
 
-- `Settings > Pages > Source`: **GitHub Actions**.
+- `Settings > Pages > Build and deployment > Source`: **Deploy from a branch**.
+- `Settings > Pages > Branch`: `gh-pages` / `(root)`.
 - Environments `test` and `production` are optional.
 - If environments exist:
   - Do not require manual reviewers for automatic deploy.
