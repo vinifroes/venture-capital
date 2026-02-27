@@ -1,0 +1,211 @@
+{
+  "id": "2021-12-16-foundation-and-initial-capitalization-instrument",
+  "standard_version": "1.1",
+  "meta": {
+    "status": "draft",
+    "generated_on": "1970-01-01",
+    "source": {
+      "path": "src/documents_drafts/2021.12.16 Foundation/Foundation and Initial Capitalization Instrument.md",
+      "format": "markdown"
+    }
+  },
+  "timeline": {
+    "stage_date": "2021-12-16",
+    "stage_name": "Foundation",
+    "execution_date": "2021-12-16"
+  },
+  "document": {
+    "type": "foundation_and_initial_capitalization_instrument",
+    "title": {
+      "pt": "Instrumento de Constituição e Capitalização Inicial",
+      "en": "Foundation and Initial Capitalization Instrument"
+    },
+    "language": {
+      "primary": "pt-BR",
+      "secondary": "en-US",
+      "prevailing": "pt-BR"
+    }
+  },
+  "parties": [
+    {
+      "name": "Eliel Divino de Oliveira",
+      "labels": [
+        {
+          "pt": "o “Founder”",
+          "en": "the “Founder”"
+        }
+      ],
+      "tax_id": "039.060.831-95",
+      "email": "eliel@hagelab.com.br",
+      "phone": "+55 (62) 9 9635 7903"
+    },
+    {
+      "name": "Hage Sistemas",
+      "labels": [
+        {
+          "pt": "a “Empresa”",
+          "en": "the “Company”"
+        }
+      ],
+      "tax_id": "44.615.747/0001-20"
+    }
+  ],
+  "intro": [
+    {
+      "ref": null,
+      "pt": "Este Instrumento de Constituição e Capitalização Inicial (“Instrumento”) é celebrado em 16 de dezembro de 2021 para formalizar a constituição da Empresa e os registros societários iniciais.",
+      "en": "This Foundation and Initial Capitalization Instrument (“Instrument”) is entered into on December 16, 2021 to formalize the Company’s incorporation and initial corporate records."
+    },
+    {
+      "ref": null,
+      "pt": "As partes reconhecem que este Instrumento é celebrado em versão bilíngue, em português e inglês. Em caso de divergência interpretativa entre as versões, prevalecerá a versão em português.",
+      "en": "The Parties acknowledge that this Instrument is executed in bilingual form, in Portuguese and English. In case of interpretative divergence between versions, the Portuguese version shall prevail."
+    }
+  ],
+  "sections": [
+    {
+      "ref": "1",
+      "title": {
+        "pt": "Objeto",
+        "en": "Purpose"
+      },
+      "clauses": [
+        {
+          "ref": "1.1",
+          "pt": "Este Instrumento formaliza a constituição da Empresa na data de 16/12/2021 e define as bases jurídicas para o início das atividades.",
+          "en": "This Instrument formalizes the Company’s incorporation on 2021-12-16 and defines the legal basis for commencement of operations."
+        },
+        {
+          "ref": "1.2",
+          "pt": "O Founder é reconhecido como fundador original e responsável pela estruturação técnica inicial da Empresa na função de CTO.",
+          "en": "The Founder is recognized as the original founder and responsible for the Company’s initial technical structuring in the CTO role."
+        }
+      ]
+    },
+    {
+      "ref": "2",
+      "title": {
+        "pt": "Capitalização Inicial",
+        "en": "Initial Capitalization"
+      },
+      "clauses": [
+        {
+          "ref": "2.1",
+          "pt": "O capital social inicial da Empresa é fixado em R$ 20.000,00 (vinte mil reais), integralmente subscrito e integralizado pelo Founder, salvo deliberação posterior em ato societário próprio.",
+          "en": "The Company’s initial share capital is set at BRL 20,000.00 (twenty thousand reais), fully subscribed and paid in by the Founder, unless otherwise resolved in a subsequent corporate act."
+        },
+        {
+          "ref": "2.2",
+          "pt": "A titularidade inicial corresponde a 100% (cem por cento) do capital social pelo Founder nesta data de constituição.",
+          "en": "Initial ownership corresponds to 100% (one hundred percent) of the Company’s equity held by the Founder on this incorporation date."
+        }
+      ]
+    },
+    {
+      "ref": "3",
+      "title": {
+        "pt": "Ativos e Propriedade Intelectual Inicial",
+        "en": "Initial Assets and Intellectual Property"
+      },
+      "clauses": [
+        {
+          "ref": "3.1",
+          "pt": "O Founder declara que os ativos técnicos e intangíveis desenvolvidos para a operação inicial da Empresa serão destinados e licenciados/cedidos à Empresa, conforme instrumentos complementares aplicáveis.",
+          "en": "The Founder declares that technical and intangible assets developed for the Company’s initial operations shall be assigned and/or licensed to the Company, subject to applicable supplemental instruments."
+        },
+        {
+          "ref": "3.2",
+          "pt": "As partes comprometem-se a manter registro documental dos ativos essenciais (repositórios, marcas, domínios e materiais estratégicos) vinculados à atividade empresarial.",
+          "en": "The Parties undertake to maintain documented records of key assets (repositories, trademarks, domains, and strategic materials) linked to the business activity."
+        }
+      ]
+    },
+    {
+      "ref": "4",
+      "title": {
+        "pt": "Administração Inicial",
+        "en": "Initial Management"
+      },
+      "clauses": [
+        {
+          "ref": "4.1",
+          "pt": "Até deliberação societária superveniente, o Founder exercerá a gestão operacional inicial da Empresa, observada a legislação aplicável e os limites do contrato social.",
+          "en": "Until superseding corporate resolutions are adopted, the Founder shall perform initial operational management of the Company, subject to applicable law and the limits of the articles of association."
+        },
+        {
+          "ref": "4.2",
+          "pt": "A Empresa poderá nomear administradores adicionais por deliberação societária formal e com registro nos livros e atos competentes.",
+          "en": "The Company may appoint additional managers through formal corporate resolution and proper recordation in the relevant books and filings."
+        }
+      ]
+    },
+    {
+      "ref": "5",
+      "title": {
+        "pt": "Registros e Conformidade",
+        "en": "Records and Compliance"
+      },
+      "clauses": [
+        {
+          "ref": "5.1",
+          "pt": "A Empresa deverá manter atualizados os livros societários, registros fiscais e demais documentos obrigatórios desde a constituição.",
+          "en": "The Company shall keep corporate books, tax records, and other mandatory documents updated as of incorporation."
+        },
+        {
+          "ref": "5.2",
+          "pt": "Qualquer alteração relevante na estrutura societária deverá ser formalizada por instrumento próprio e refletida no cap table oficial.",
+          "en": "Any relevant change to the ownership structure shall be formalized in proper instruments and reflected in the official cap table."
+        }
+      ]
+    },
+    {
+      "ref": "6",
+      "title": {
+        "pt": "Vigência",
+        "en": "Term"
+      },
+      "clauses": [
+        {
+          "ref": "6.1",
+          "pt": "Este Instrumento entra em vigor na data de sua assinatura e permanece eficaz enquanto não substituído por instrumento societário posterior.",
+          "en": "This Instrument becomes effective on its execution date and remains effective until superseded by a later corporate instrument."
+        }
+      ]
+    },
+    {
+      "ref": "7",
+      "title": {
+        "pt": "Lei Aplicável e Foro",
+        "en": "Governing Law and Jurisdiction"
+      },
+      "clauses": [
+        {
+          "ref": "7.1",
+          "pt": "Este Instrumento será regido pelas leis da República Federativa do Brasil.",
+          "en": "This Instrument shall be governed by the laws of the Federative Republic of Brazil."
+        },
+        {
+          "ref": "7.2",
+          "pt": "Fica eleito o foro da comarca de Goiânia-GO, Brasil, para dirimir controvérsias decorrentes deste Instrumento.",
+          "en": "The courts of Goiânia-GO, Brazil are elected to resolve disputes arising out of this Instrument."
+        }
+      ]
+    }
+  ],
+  "language_rule": {
+    "prevailing_language": "pt-BR",
+    "pt": "As partes reconhecem que este Instrumento é celebrado em versão bilíngue, em português e inglês. Em caso de divergência interpretativa entre as versões, prevalecerá a versão em português.",
+    "en": "The Parties acknowledge that this Instrument is executed in bilingual form, in Portuguese and English. In case of interpretative divergence between versions, the Portuguese version shall prevail."
+  },
+  "execution": {
+    "status": "draft",
+    "signature_standard": "icp_brasil_qualified",
+    "signed_at": null,
+    "provider": null,
+    "evidence": {
+      "sha256": null,
+      "validation_report": null,
+      "registry_protocol": null
+    }
+  }
+}

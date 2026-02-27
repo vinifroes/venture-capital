@@ -1,0 +1,137 @@
+name: Deploy Pages
+
+on:
+  push:
+    branches:
+      - develop
+      - main
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: "Git ref to deploy pages (branch, tag or SHA)"
+        required: false
+        default: "main"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy-pages:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.ref || github.ref }}
+
+      - name: Setup Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Resolve deploy target
+        id: target
+        run: |
+          set -euo pipefail
+          if [[ "${GITHUB_EVENT_NAME}" == "push" ]]; then
+            case "${GITHUB_REF_NAME}" in
+              develop) TARGET_ENV="test" ;;
+              main) TARGET_ENV="prod" ;;
+              *)
+                echo "Unsupported push branch: ${GITHUB_REF_NAME}"
+                exit 1
+                ;;
+            esac
+          else
+            case "${{ github.event.inputs.ref }}" in
+              develop) TARGET_ENV="test" ;;
+              main) TARGET_ENV="prod" ;;
+              *)
+                echo "workflow_dispatch ref is not develop/main; defaulting deploy target to prod."
+                TARGET_ENV="prod"
+                ;;
+            esac
+          fi
+          echo "target_env=${TARGET_ENV}" >> "${GITHUB_OUTPUT}"
+          echo "Deploy target: ${TARGET_ENV}"
+
+      - name: Build test static site
+        if: steps.target.outputs.target_env == 'test'
+        env:
+          VITE_BASE_PATH: /${{ github.event.repository.name }}/test/
+        run: |
+          set -euo pipefail
+          npm run build:test
+          rm -rf dist-test
+          mkdir -p dist-test
+          cp -R dist/. dist-test/
+
+      - name: Build production static site
+        if: steps.target.outputs.target_env == 'prod'
+        env:
+          VITE_BASE_PATH: /${{ github.event.repository.name }}/
+        run: |
+          set -euo pipefail
+          npm run build:prod
+          rm -rf dist-prod
+          mkdir -p dist-prod
+          cp -R dist/. dist-prod/
+
+      - name: Publish pages to gh-pages
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          WORKTREE_DIR="$(mktemp -d)"
+
+          if git ls-remote --exit-code --heads origin gh-pages; then
+            git fetch origin gh-pages:gh-pages
+            git worktree add "${WORKTREE_DIR}" gh-pages
+          else
+            git worktree add --detach "${WORKTREE_DIR}"
+            (
+              cd "${WORKTREE_DIR}"
+              git checkout --orphan gh-pages
+              git rm -rf . >/dev/null 2>&1 || true
+              find . -mindepth 1 -maxdepth 1 ! -name ".git" -exec rm -rf {} +
+            )
+          fi
+
+          TARGET_ENV="${{ steps.target.outputs.target_env }}"
+          if [[ "${TARGET_ENV}" == "test" ]]; then
+            rm -rf "${WORKTREE_DIR}/test"
+            mkdir -p "${WORKTREE_DIR}/test"
+            cp -R "${GITHUB_WORKSPACE}/dist-test/." "${WORKTREE_DIR}/test/"
+          else
+            find "${WORKTREE_DIR}" -mindepth 1 -maxdepth 1 \
+              ! -name ".git" \
+              ! -name "test" \
+              -exec rm -rf {} +
+            cp -R "${GITHUB_WORKSPACE}/dist-prod/." "${WORKTREE_DIR}/"
+          fi
+          touch "${WORKTREE_DIR}/.nojekyll"
+
+          (
+            cd "${WORKTREE_DIR}"
+            git add -A
+            if git diff --cached --quiet; then
+              echo "No pages changes to deploy."
+            else
+              git commit -m "deploy: pages ${GITHUB_SHA}"
+              git push origin HEAD:gh-pages
+            fi
+          )
+
+          git worktree remove "${WORKTREE_DIR}" --force || rm -rf "${WORKTREE_DIR}"

@@ -1,0 +1,20 @@
+{
+  "document_id": "YYYY-MM-DD-document-slug",
+  "version": "v1.0.0",
+  "execution_status": "signed",
+  "signature_standard": "icp_brasil_qualified",
+  "provider": "to-be-defined",
+  "signed_at": "YYYY-MM-DDTHH:mm:ssZ",
+  "signers": [
+    {
+      "name": "Full Name",
+      "role": "signatory-role",
+      "certificate_subject": "ICP-Brasil certificate subject DN"
+    }
+  ],
+  "evidence": {
+    "sha256": "hex-encoded-hash",
+    "validation_report": "legal_evidence/<document-id>/<version>/validation-report.pdf",
+    "registry_protocol": null
+  }
+}

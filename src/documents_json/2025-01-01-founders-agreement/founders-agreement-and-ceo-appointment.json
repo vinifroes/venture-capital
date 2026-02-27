@@ -1,0 +1,242 @@
+{
+  "id": "2025-01-01-founders-agreement-and-ceo-appointment",
+  "standard_version": "1.1",
+  "meta": {
+    "status": "draft",
+    "generated_on": "1970-01-01",
+    "source": {
+      "path": "src/documents_drafts/2025.01.01 Founders Agreement/Founders Agreement.md",
+      "format": "markdown"
+    }
+  },
+  "timeline": {
+    "stage_date": "2025-01-01",
+    "stage_name": "Founders Agreement",
+    "execution_date": "2025-01-01"
+  },
+  "document": {
+    "type": "founders_agreement",
+    "title": {
+      "pt": "Acordo de Fundadores e Nomeação de CEO",
+      "en": "Founders Agreement and CEO Appointment"
+    },
+    "language": {
+      "primary": "pt-BR",
+      "secondary": "en-US",
+      "prevailing": "pt-BR"
+    }
+  },
+  "parties": [
+    {
+      "name": "Eliel Divino de Oliveira",
+      "labels": [
+        {
+          "pt": "o “Founder 1”",
+          "en": "“Founder 1”"
+        }
+      ],
+      "tax_id": "039.060.831-95",
+      "email": "eliel@hagelab.com.br",
+      "phone": "+55 (62) 9 9635 7903"
+    },
+    {
+      "name": "Rogério Martins Diniz",
+      "labels": [
+        {
+          "pt": "o “Founder 2”",
+          "en": "“Founder 2”"
+        }
+      ],
+      "tax_id": "031.405.841-99",
+      "email": "rogerio@hagelab.com.br",
+      "phone": "+55 (62) 9 8424 5945"
+    },
+    {
+      "name": "Hage Sistemas",
+      "labels": [
+        {
+          "pt": "a “Empresa”",
+          "en": "the “Company”"
+        }
+      ],
+      "tax_id": "44.615.747/0001-20"
+    }
+  ],
+  "intro": [
+    {
+      "ref": null,
+      "pt": "Este Acordo de Fundadores e Nomeação de CEO (“Acordo”) é celebrado em 1º de janeiro de 2025 por e entre as partes acima qualificadas.",
+      "en": "This Founders Agreement and CEO Appointment (“Agreement”) is entered into as of January 1, 2025, by and between the parties described above."
+    },
+    {
+      "ref": null,
+      "pt": "As partes reconhecem que este Acordo é celebrado em versão bilíngue, em português e inglês. Em caso de divergência interpretativa entre as versões, prevalecerá a versão em português.",
+      "en": "The Parties acknowledge that this Agreement is executed in bilingual form, in Portuguese and English. In case of interpretative divergence between versions, the Portuguese version shall prevail."
+    }
+  ],
+  "sections": [
+    {
+      "ref": "1",
+      "title": {
+        "pt": "Objeto",
+        "en": "Purpose"
+      },
+      "clauses": [
+        {
+          "ref": "1.1",
+          "pt": "Este Acordo regula direitos e obrigações dos Founders entre si e em relação à Empresa, incluindo governança, responsabilidades executivas e regras de alinhamento societário.",
+          "en": "This Agreement governs the Founders’ rights and obligations among themselves and in relation to the Company, including governance, executive responsibilities, and ownership alignment rules."
+        },
+        {
+          "ref": "1.2",
+          "pt": "Este Acordo complementa o contrato social da Empresa e deverá ser observado em conjunto com os demais atos societários aplicáveis.",
+          "en": "This Agreement supplements the Company’s articles of association and shall be interpreted together with other applicable corporate instruments."
+        }
+      ]
+    },
+    {
+      "ref": "2",
+      "title": {
+        "pt": "Nomeação de CEO",
+        "en": "CEO Appointment"
+      },
+      "clauses": [
+        {
+          "ref": "2.1",
+          "pt": "As partes aprovam a nomeação de Eliel Divino de Oliveira para o cargo de Chief Executive Officer (CEO), com vigência a partir de 01/01/2025.",
+          "en": "The Parties approve the appointment of Eliel Divino de Oliveira as Chief Executive Officer (CEO), effective as of 2025-01-01."
+        },
+        {
+          "ref": "2.2",
+          "pt": "O CEO terá poderes de representação e gestão executiva dentro dos limites estabelecidos neste Acordo, no contrato social e nas deliberações societárias.",
+          "en": "The CEO shall have representation and executive management powers within the limits established by this Agreement, the articles of association, and corporate resolutions."
+        }
+      ]
+    },
+    {
+      "ref": "3",
+      "title": {
+        "pt": "Papéis e Responsabilidades",
+        "en": "Roles and Responsibilities"
+      },
+      "clauses": [
+        {
+          "ref": "3.1",
+          "pt": "O Founder 1 atuará como CEO e responsável pela direção executiva e tecnológica da Empresa.",
+          "en": "Founder 1 shall act as CEO and be responsible for the Company’s executive and technology direction."
+        },
+        {
+          "ref": "3.2",
+          "pt": "O Founder 2 atuará como CSO, responsável por estratégia comercial, desenvolvimento de mercado e relacionamento institucional.",
+          "en": "Founder 2 shall act as CSO, responsible for commercial strategy, market development, and institutional relations."
+        }
+      ]
+    },
+    {
+      "ref": "4",
+      "title": {
+        "pt": "Governança e Matérias Reservadas",
+        "en": "Governance and Reserved Matters"
+      },
+      "clauses": [
+        {
+          "ref": "4.1",
+          "pt": "As decisões estratégicas sobre captação, reorganização societária, emissão de participações e venda de controle dependerão de aprovação conjunta dos Founders, salvo regra diversa em ato societário posterior.",
+          "en": "Strategic decisions regarding fundraising, corporate reorganization, equity issuances, and change-of-control transactions shall require joint Founders approval, unless otherwise set forth in a later corporate instrument."
+        },
+        {
+          "ref": "4.2",
+          "pt": "A Empresa manterá rotina mínima de reporte gerencial trimestral aos Founders, incluindo indicadores financeiros e operacionais relevantes.",
+          "en": "The Company shall maintain at least quarterly management reporting to the Founders, including relevant financial and operational indicators."
+        }
+      ]
+    },
+    {
+      "ref": "5",
+      "title": {
+        "pt": "Transferência de Participações",
+        "en": "Equity Transfer Rules"
+      },
+      "clauses": [
+        {
+          "ref": "5.1",
+          "pt": "Qualquer transferência de participação pelos Founders deverá observar direito de preferência, direito de acompanhamento e demais restrições previstas em instrumentos societários vigentes.",
+          "en": "Any transfer of equity interests by the Founders shall observe preemptive rights, tag-along rights, and other restrictions set forth in applicable corporate instruments."
+        },
+        {
+          "ref": "5.2",
+          "pt": "Transferências em desacordo com este Acordo poderão ser consideradas ineficazes perante a Empresa e os demais sócios, sem prejuízo das medidas legais cabíveis.",
+          "en": "Transfers made in breach of this Agreement may be deemed ineffective against the Company and other equity holders, without prejudice to applicable legal remedies."
+        }
+      ]
+    },
+    {
+      "ref": "6",
+      "title": {
+        "pt": "Confidencialidade e Não Concorrência",
+        "en": "Confidentiality and Non-Compete"
+      },
+      "clauses": [
+        {
+          "ref": "6.1",
+          "pt": "Os Founders comprometem-se a preservar a confidencialidade de informações estratégicas, técnicas, financeiras e comerciais da Empresa.",
+          "en": "The Founders undertake to preserve confidentiality of the Company’s strategic, technical, financial, and commercial information."
+        },
+        {
+          "ref": "6.2",
+          "pt": "As partes poderão estabelecer obrigações específicas adicionais de não concorrência e não aliciamento em instrumento complementar, conforme evolução do negócio e da legislação aplicável.",
+          "en": "The Parties may establish additional specific non-compete and non-solicitation obligations in supplemental instruments, according to business evolution and applicable law."
+        }
+      ]
+    },
+    {
+      "ref": "7",
+      "title": {
+        "pt": "Vigência",
+        "en": "Term"
+      },
+      "clauses": [
+        {
+          "ref": "7.1",
+          "pt": "Este Acordo entra em vigor na data de sua assinatura e permanecerá válido até substituição por novo instrumento ou resolução unânime das partes.",
+          "en": "This Agreement becomes effective on its execution date and shall remain valid until replaced by a new instrument or terminated by unanimous resolution of the Parties."
+        }
+      ]
+    },
+    {
+      "ref": "8",
+      "title": {
+        "pt": "Lei Aplicável e Foro",
+        "en": "Governing Law and Jurisdiction"
+      },
+      "clauses": [
+        {
+          "ref": "8.1",
+          "pt": "Este Acordo será regido pelas leis da República Federativa do Brasil.",
+          "en": "This Agreement shall be governed by the laws of the Federative Republic of Brazil."
+        },
+        {
+          "ref": "8.2",
+          "pt": "Fica eleito o foro da comarca de Goiânia-GO, Brasil, para dirimir quaisquer controvérsias decorrentes deste Acordo.",
+          "en": "The courts of Goiânia-GO, Brazil are elected to resolve any disputes arising out of this Agreement."
+        }
+      ]
+    }
+  ],
+  "language_rule": {
+    "prevailing_language": "pt-BR",
+    "pt": "As partes reconhecem que este Acordo é celebrado em versão bilíngue, em português e inglês. Em caso de divergência interpretativa entre as versões, prevalecerá a versão em português.",
+    "en": "The Parties acknowledge that this Agreement is executed in bilingual form, in Portuguese and English. In case of interpretative divergence between versions, the Portuguese version shall prevail."
+  },
+  "execution": {
+    "status": "draft",
+    "signature_standard": "icp_brasil_qualified",
+    "signed_at": null,
+    "provider": null,
+    "evidence": {
+      "sha256": null,
+      "validation_report": null,
+      "registry_protocol": null
+    }
+  }
+}

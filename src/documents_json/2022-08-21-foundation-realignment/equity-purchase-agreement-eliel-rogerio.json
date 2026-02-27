@@ -1,0 +1,247 @@
+{
+  "id": "2022-08-21-equity-purchase-agreement-eliel-rogerio",
+  "standard_version": "1.1",
+  "meta": {
+    "status": "draft",
+    "generated_on": "1970-01-01",
+    "source": {
+      "path": "src/documents_drafts/2022.08.21 Foundation Realignment/Equity Purchase Agreement - Eliel + Rogério.md",
+      "format": "markdown"
+    }
+  },
+  "timeline": {
+    "stage_date": "2022-08-21",
+    "stage_name": "Foundation Realignment",
+    "execution_date": "2022-08-21"
+  },
+  "document": {
+    "type": "equity_purchase_agreement",
+    "title": {
+      "pt": "Contrato de Compra e Venda de Participação Societária",
+      "en": "Equity Purchase Agreement"
+    },
+    "language": {
+      "primary": "pt-BR",
+      "secondary": "en-US",
+      "prevailing": "pt-BR"
+    }
+  },
+  "parties": [
+    {
+      "name": "Eliel Divino de Oliveira",
+      "labels": [
+        {
+          "pt": "o “Vendedor”",
+          "en": "the “Seller”"
+        }
+      ],
+      "tax_id": "039.060.831-95",
+      "email": "eliel@hagelab.com.br",
+      "phone": "+55 (62) 9 9635 7903"
+    },
+    {
+      "name": "Rogério Martins Diniz",
+      "labels": [
+        {
+          "pt": "o “Comprador”",
+          "en": "the “Buyer”"
+        }
+      ],
+      "tax_id": "031.405.841-99",
+      "email": "rogerio@hagelab.com.br",
+      "phone": "+55 (62) 9 8424 5945"
+    },
+    {
+      "name": "Hage Sistemas",
+      "labels": [
+        {
+          "pt": "a “Empresa”",
+          "en": "the “Company”"
+        }
+      ],
+      "tax_id": "44.615.747/0001-20"
+    }
+  ],
+  "intro": [
+    {
+      "ref": null,
+      "pt": "Este Contrato de Compra e Venda Secundária de Participação Societária (“Contrato”) é celebrado em 21 de agosto de 2022, por e entre as partes acima qualificadas.",
+      "en": "This Secondary Equity Purchase Agreement (“Agreement”) is entered into as of August 21, 2022, by and between the parties described above."
+    },
+    {
+      "ref": null,
+      "pt": "As partes reconhecem que este Contrato é celebrado em versão bilíngue, em português e inglês. Em caso de divergência interpretativa entre as versões, prevalecerá a versão em português.",
+      "en": "The Parties acknowledge that this Agreement is executed in bilingual form, in Portuguese and English. In case of interpretative divergence between versions, the Portuguese version shall prevail."
+    }
+  ],
+  "sections": [
+    {
+      "ref": "1",
+      "title": {
+        "pt": "Objeto",
+        "en": "Purchase and Sale of Equity Interests"
+      },
+      "clauses": [
+        {
+          "ref": "1.1",
+          "pt": "O Vendedor compromete-se a vender ao Comprador, e este a adquirir, participação societária correspondente a 25% (vinte e cinco por cento) do capital social totalmente diluído da Empresa na data deste Contrato (“Participação”).",
+          "en": "Seller agrees to sell to Buyer, and Buyer agrees to purchase, equity interests representing 25% (twenty-five percent) of the Company’s fully diluted capitalization as of the date of this Agreement (the “Equity Interests”)."
+        },
+        {
+          "ref": "1.2",
+          "pt": "Para fins deste Contrato, “Participação” significa quotas, ações ou qualquer outra forma de participação societária aplicável à natureza jurídica da Empresa.",
+          "en": "For purposes of this Agreement, “Equity Interests” means quotas, shares, or any other ownership interests applicable to the Company’s legal structure."
+        }
+      ]
+    },
+    {
+      "ref": "2",
+      "title": {
+        "pt": "Preço",
+        "en": "Purchase Price"
+      },
+      "clauses": [
+        {
+          "ref": "2.1",
+          "pt": "O preço total da operação será definido e registrado no Anexo A deste Contrato (“Preço”).",
+          "en": "The total purchase price of the transaction shall be defined and recorded in Schedule A to this Agreement (the “Purchase Price”)."
+        },
+        {
+          "ref": "2.2",
+          "pt": "O Anexo A, quando assinado pelas partes, passará a integrar este Contrato para todos os fins de direito.",
+          "en": "Once signed by the Parties, Schedule A shall become an integral part of this Agreement for all legal purposes."
+        }
+      ]
+    },
+    {
+      "ref": "3",
+      "title": {
+        "pt": "Condições de Pagamento",
+        "en": "Payment Terms"
+      },
+      "clauses": [
+        {
+          "ref": "3.1",
+          "pt": "O Preço deverá ser pago conforme calendário e forma previstos no Anexo A.",
+          "en": "The Purchase Price shall be paid according to the schedule and payment method set forth in Schedule A."
+        },
+        {
+          "ref": "3.2",
+          "pt": "O inadimplemento sujeitará a parte inadimplente às medidas de execução específica, perdas e danos e demais remédios legais cabíveis.",
+          "en": "Any payment default shall subject the defaulting party to specific performance, damages, and other available legal remedies."
+        }
+      ]
+    },
+    {
+      "ref": "4",
+      "title": {
+        "pt": "Fechamento",
+        "en": "Closing"
+      },
+      "clauses": [
+        {
+          "ref": "4.1",
+          "pt": "O fechamento da operação ocorrerá em 21/08/2022, mediante assinatura deste Contrato e dos documentos de transferência aplicáveis.",
+          "en": "Closing shall occur on 2022-08-21, upon execution of this Agreement and the applicable transfer documents."
+        },
+        {
+          "ref": "4.2",
+          "pt": "Na data de fechamento, a Empresa atualizará seus registros societários e o cap table refletindo a nova participação do Comprador.",
+          "en": "On the Closing date, the Company shall update its corporate records and cap table reflecting Buyer’s updated ownership stake."
+        }
+      ]
+    },
+    {
+      "ref": "5",
+      "title": {
+        "pt": "Declarações do Vendedor",
+        "en": "Representations and Warranties of Seller"
+      },
+      "clauses": [
+        {
+          "ref": "5.1",
+          "pt": "O Vendedor declara ser titular legítimo da Participação e ter poderes para aliená-la.",
+          "en": "Seller represents that he is the lawful owner of the Equity Interests and has full authority to transfer them."
+        },
+        {
+          "ref": "5.2",
+          "pt": "A Participação está livre de ônus, gravames ou restrições não informadas neste Contrato.",
+          "en": "The Equity Interests are free of undisclosed liens, encumbrances, or restrictions."
+        }
+      ]
+    },
+    {
+      "ref": "6",
+      "title": {
+        "pt": "Declarações do Comprador",
+        "en": "Representations of Buyer"
+      },
+      "clauses": [
+        {
+          "ref": "6.1",
+          "pt": "O Comprador declara possuir capacidade legal para celebrar este Contrato e adquire a Participação para fins societários e de investimento.",
+          "en": "Buyer represents it has legal capacity to enter into this Agreement and acquires the Equity Interests for corporate and investment purposes."
+        },
+        {
+          "ref": "6.2",
+          "pt": "O Comprador declara ciência das regras de governança e restrições de transferência aplicáveis à Empresa.",
+          "en": "Buyer acknowledges awareness of the governance rules and transfer restrictions applicable to the Company."
+        }
+      ]
+    },
+    {
+      "ref": "7",
+      "title": {
+        "pt": "Efeitos Societários",
+        "en": "Corporate Effects"
+      },
+      "clauses": [
+        {
+          "ref": "7.1",
+          "pt": "A partir do fechamento, o Comprador será reconhecido como sócio com todos os direitos políticos e econômicos proporcionais à Participação adquirida.",
+          "en": "As of Closing, Buyer shall be recognized as equity holder with all governance and economic rights proportional to the acquired Equity Interests."
+        },
+        {
+          "ref": "7.2",
+          "pt": "A Empresa e as partes adotarão todos os atos necessários para refletir a operação nos livros societários e perante os órgãos competentes.",
+          "en": "The Company and the Parties shall take all necessary actions to reflect the transaction in corporate books and before the competent authorities."
+        }
+      ]
+    },
+    {
+      "ref": "8",
+      "title": {
+        "pt": "Lei Aplicável e Foro",
+        "en": "Governing Law and Jurisdiction"
+      },
+      "clauses": [
+        {
+          "ref": "8.1",
+          "pt": "Este Contrato será regido pelas leis da República Federativa do Brasil.",
+          "en": "This Agreement shall be governed by the laws of the Federative Republic of Brazil."
+        },
+        {
+          "ref": "8.2",
+          "pt": "Fica eleito o foro da comarca de Goiânia-GO, Brasil, para dirimir quaisquer controvérsias decorrentes deste Contrato.",
+          "en": "The courts of Goiânia-GO, Brazil are elected to resolve any disputes arising out of this Agreement."
+        }
+      ]
+    }
+  ],
+  "language_rule": {
+    "prevailing_language": "pt-BR",
+    "pt": "As partes reconhecem que este Contrato é celebrado em versão bilíngue, em português e inglês. Em caso de divergência interpretativa entre as versões, prevalecerá a versão em português.",
+    "en": "The Parties acknowledge that this Agreement is executed in bilingual form, in Portuguese and English. In case of interpretative divergence between versions, the Portuguese version shall prevail."
+  },
+  "execution": {
+    "status": "draft",
+    "signature_standard": "icp_brasil_qualified",
+    "signed_at": null,
+    "provider": null,
+    "evidence": {
+      "sha256": null,
+      "validation_report": null,
+      "registry_protocol": null
+    }
+  }
+}

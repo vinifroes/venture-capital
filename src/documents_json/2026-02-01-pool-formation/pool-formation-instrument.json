@@ -1,0 +1,265 @@
+{
+  "id": "2026-02-01-pool-formation-instrument",
+  "standard_version": "1.1",
+  "meta": {
+    "status": "draft",
+    "generated_on": "1970-01-01",
+    "source": {
+      "path": "src/documents_drafts/2026.02.01 Pool Formation/Pool Formation.md",
+      "format": "markdown"
+    }
+  },
+  "timeline": {
+    "stage_date": "2026-02-01",
+    "stage_name": "Pool Formation",
+    "execution_date": "2026-02-01"
+  },
+  "document": {
+    "type": "equity_pool_formation_instrument",
+    "title": {
+      "pt": "Instrumento de Autorização de Participações Societárias e Criação de Pools",
+      "en": "Equity Authorization and Pool Establishment Instrument"
+    },
+    "language": {
+      "primary": "pt-BR",
+      "secondary": "en-US",
+      "prevailing": "pt-BR"
+    }
+  },
+  "parties": [
+    {
+      "name": "Hage Sistemas",
+      "labels": [
+        {
+          "pt": "a “Empresa”",
+          "en": "the “Company”"
+        }
+      ],
+      "tax_id": "44.615.747/0001-20"
+    },
+    {
+      "name": "Eliel Divino de Oliveira",
+      "labels": [
+        {
+          "pt": "“Founder Originário”",
+          "en": "“Original Founder”"
+        }
+      ],
+      "tax_id": "039.060.831-95",
+      "email": "eliel@hagelab.com.br",
+      "phone": "+55 (62) 9 9635 7903"
+    },
+    {
+      "name": "Rogério Martins Diniz",
+      "labels": [
+        {
+          "pt": "“Founder Originário”",
+          "en": "“Original Founder”"
+        }
+      ],
+      "tax_id": "031.405.841-99",
+      "email": "rogerio@hagelab.com.br",
+      "phone": "+55 (62) 9 8424 5945"
+    }
+  ],
+  "intro": [
+    {
+      "ref": null,
+      "pt": "Em caso de divergência interpretativa entre as versões em português e inglês deste Instrumento, prevalecerá a versão em português.",
+      "en": "In the event of any inconsistency between the Portuguese and English versions of this Instrument, the Portuguese version shall prevail."
+    }
+  ],
+  "sections": [
+    {
+      "ref": null,
+      "title": {
+        "pt": "Finalidade",
+        "en": "Purpose"
+      },
+      "clauses": [
+        {
+          "ref": null,
+          "pt": "Estabelecer (i) o total de Participações Societárias autorizadas para fins de cap table, (ii) a criação e reserva dos Pools (Advisor Pool, Talent Pool e Founder Performance Pool), (iii) a regra de reversão de saldos não distribuídos aos Founders Originários pro-rata, e (iv) a integração com o Equity Purchase Agreement (compra secundária 5% pro-rata) e com o Performance Equity Agreement (10% por milestone, exclusivo do Beneficiário).",
+          "en": "To establish (i) the total authorized Equity for cap table purposes, (ii) the creation and reservation of Pools (Advisor Pool, Talent Pool, and Founder Performance Pool), (iii) the reversion rule for undistributed balances back to the Original Founders pro rata, and (iv) integration with the Equity Purchase Agreement (5% pro-rata secondary purchase) and the Performance Equity Agreement (10% milestone-based, exclusive to the Beneficiary)."
+        }
+      ]
+    },
+    {
+      "ref": "1",
+      "title": {
+        "pt": "Definições",
+        "en": "Definitions"
+      },
+      "clauses": [
+        {
+          "ref": null,
+          "pt": "“Participação Societária” (“Equity”) significa quotas, ações, units ou quaisquer outros títulos/participações representativos de participação no capital da Empresa (ou de sua sucessora), conforme aplicável à sua natureza jurídica e jurisdição.\n\n“Common” significa a classe ordinária de Equity, com direitos padrão de voto e econômicos, conforme aplicável à estrutura vigente.\n\n“Capital Totalmente Diluído” (“Fully Diluted Capitalization”) significa o total de Equity autorizada/considerada para fins de cap table, incluindo pools e instrumentos potencialmente emitíveis (opções, SAFEs, conversíveis e reservas/pools), conforme aplicável.\n\n“Data de Referência de Reversão” significa a data de aprovação/assinatura deste Instrumento, na qual se fixa a proporção entre os Founders Originários para fins de reversão (“Proporção de Reversão”).\n\n“Advisor Pool” significa o pool reservado para advisors, operacionalizado via opções/awards sobre Common.\n\n“Talent Pool” significa o pool reservado para talentos/colaboradores, operacionalizado via opções/awards sobre Common.\n\n“Founder Performance Pool” significa o pool reservado exclusivamente para suportar a entrega do Performance Equity ao Beneficiário, nos termos do Performance Equity Agreement, sempre em Common, não podendo ser utilizado para outorgas a terceiros.",
+          "en": "“Equity” means quotas, shares, units, or any other equity securities/interests representing ownership in the Company (or its successor), as applicable to its legal form and jurisdiction.\n\n“Common” means the ordinary class of Equity with standard voting and economic rights, as applicable under the current structure.\n\n“Fully Diluted Capitalization” means all Equity authorized/deemed for cap table purposes, including pools and issuable instruments (options, SAFEs, convertibles and pools/reserves), as applicable.\n\n“Reversion Reference Date” means the approval/execution date of this Instrument, on which the ownership ratio between the Original Founders for reversion purposes is fixed (the “Reversion Ratio”).\n\n“Advisor Pool” means the pool reserved for advisors, implemented through options/awards over Common.\n\n“Talent Pool” means the pool reserved for talents/employees, implemented through options/awards over Common.\n\n“Founder Performance Pool” means the pool reserved exclusively to support delivery of Performance Equity to the Beneficiary under the Performance Equity Agreement, always in Common, and may not be used for grants to any third parties."
+        }
+      ]
+    },
+    {
+      "ref": "2",
+      "title": {
+        "pt": "Autorização e Total de Participações (60M Common)",
+        "en": "Authorization and Total Equity (60M Common)"
+      },
+      "clauses": [
+        {
+          "ref": "2.1",
+          "pt": "Para fins de cap table, as Partes aprovam que o Capital Totalmente Diluído da Empresa será considerado como 60.000.000 (sessenta milhões) de unidades de Common (“Total Authorized Common”), salvo ajuste escrito posterior aprovado pela Empresa e Founders.",
+          "en": "For cap table purposes, the Parties approve that the Company’s Fully Diluted Capitalization shall be deemed 60,000,000 (sixty million) units of Common (“Total Authorized Common”), unless otherwise agreed in writing and approved by the Company and the Founders."
+        },
+        {
+          "ref": "2.2",
+          "pt": "Os Pools abaixo serão criados e reservados antes da efetivação do Equity Purchase Agreement (compra secundária de 5%), de modo que tais reservas diluam exclusivamente os Founders Originários.",
+          "en": "The Pools below shall be created and reserved prior to the effectiveness of the Equity Purchase Agreement (5% secondary purchase), so that such reserves dilute only the Original Founders."
+        }
+      ]
+    },
+    {
+      "ref": "3",
+      "title": {
+        "pt": "Criação e Reserva de Pools (Common)",
+        "en": "Pool Creation and Reservation (Common)"
+      },
+      "clauses": [
+        {
+          "ref": "3.1",
+          "pt": "As Partes aprovam a criação e reserva dos seguintes pools, todos baseados em Common (opções/awards sobre Common):\n(a) Advisor Pool: 3% do Total Authorized Common = 1.800.000 Common reservadas.\n(b) Talent Pool: 5% do Total Authorized Common = 3.000.000 Common reservadas.\n(c) Founder Performance Pool: 10% do Total Authorized Common = 6.000.000 Common reservadas exclusivamente para o Beneficiário (Performance Equity Agreement).",
+          "en": "The Parties approve the creation and reservation of the following pools, all based on Common (options/awards over Common):\n(a) Advisor Pool: 3% of Total Authorized Common = 1,800,000 Common reserved.\n(b) Talent Pool: 5% of Total Authorized Common = 3,000,000 Common reserved.\n(c) Founder Performance Pool: 10% of Total Authorized Common = 6,000,000 Common reserved exclusively for the Beneficiary (Performance Equity Agreement)."
+        },
+        {
+          "ref": "3.2",
+          "pt": "Os Pools são reservas para fins de cap table (não constituem emissão imediata) e deverão ser operacionalizados via Plano de Incentivo/Instrumentos de Outorga aprovados pela Empresa, observadas as leis aplicáveis e o Acordo de Sócios (quando aplicável).",
+          "en": "The Pools are cap table reservations (not immediate issuances) and shall be implemented through an Incentive Plan/Grant Instruments approved by the Company, subject to applicable law and the Shareholders’ Agreement (when applicable)."
+        }
+      ]
+    },
+    {
+      "ref": "4",
+      "title": {
+        "pt": "Regra de Reversão de Saldos Não Distribuídos (Pro-rata Founders)",
+        "en": "Reversion of Undistributed Balances (Pro Rata Founders)"
+      },
+      "clauses": [
+        {
+          "ref": "4.1",
+          "pt": "Qualquer parcela reservada nos Pools que não tenha sido efetivamente outorgada/emitida (o “Saldo Não Distribuído”) poderá ser cancelada/revertida mediante aprovação formal da Empresa, retornando pro-rata aos Founders Originários conforme a Proporção de Reversão fixada na Data de Referência de Reversão.",
+          "en": "Any portion reserved in the Pools that has not been effectively granted/issued (the “Undistributed Balance”) may be cancelled/reverted upon formal Company approval and returned pro rata to the Original Founders in accordance with the Reversion Ratio fixed on the Reversion Reference Date."
+        },
+        {
+          "ref": "4.2",
+          "pt": "A reversão aplica-se apenas ao Saldo Não Distribuído e não afeta participações já concedidas/emitidas a terceiros.",
+          "en": "Reversion applies only to the Undistributed Balance and shall not affect equity already granted/issued to third parties."
+        },
+        {
+          "ref": "4.3",
+          "pt": "Exceção operacional (Founder Performance Pool): o Saldo Não Distribuído do Founder Performance Pool somente poderá ser revertido após (i) extinção/encerramento definitivo dos direitos do Beneficiário no Performance Equity Agreement, ou (ii) declaração formal de não atingimento/renúncia ao milestone em caráter definitivo, a fim de preservar a finalidade exclusiva do pool.",
+          "en": "Operational exception (Founder Performance Pool): Undistributed Balance of the Founder Performance Pool may only be reverted after (i) definitive termination of the Beneficiary’s rights under the Performance Equity Agreement, or (ii) a formal determination that the milestone will not be achieved / has been definitively waived, to preserve the pool’s exclusive purpose."
+        }
+      ]
+    },
+    {
+      "ref": "5",
+      "title": {
+        "pt": "Integração com Equity Purchase Agreement (Compra 5% Pro-rata)",
+        "en": "Integration with Equity Purchase Agreement (5% Pro-Rata Purchase)"
+      },
+      "clauses": [
+        {
+          "ref": "5.1",
+          "pt": "As Partes reconhecem que, após a criação dos Pools, o Comprador (Beneficiário) adquirirá 5% do Total Authorized Common, equivalente a 3.000.000 Common, por compra secundária pro-rata dos Founders (E e R), conforme suas participações na data do Closing do Equity Purchase Agreement.",
+          "en": "The Parties acknowledge that after the Pools are created, the Buyer (Beneficiary) shall acquire 5% of Total Authorized Common, equal to 3,000,000 Common, through a pro-rata secondary purchase from the Founders (E and R), according to their ownership at the Closing of the Equity Purchase Agreement."
+        },
+        {
+          "ref": "5.2",
+          "pt": "Considerando a proporção Founder 75/25 entre E e R na Data de Referência de Reversão, a venda pro-rata de 3.000.000 Common deverá resultar, como regra, em: E vende 2.250.000 e R vende 750.000, salvo ajuste escrito específico no Equity Purchase Agreement.",
+          "en": "Assuming a Founder 75/25 ratio between E and R as of the Reversion Reference Date, the pro-rata sale of 3,000,000 Common shall generally result in: E sells 2,250,000 and R sells 750,000, unless otherwise expressly agreed in the Equity Purchase Agreement."
+        }
+      ]
+    },
+    {
+      "ref": "6",
+      "title": {
+        "pt": "Integração com Performance Equity Agreement (10% Exclusivo do Beneficiário)",
+        "en": "Integration with Performance Equity Agreement (10% Exclusive to Beneficiary)"
+      },
+      "clauses": [
+        {
+          "ref": "6.1",
+          "pt": "O Founder Performance Pool (10%) é criado exclusivamente para suportar a entrega do Performance Equity ao Beneficiário, nos termos do Performance Equity Agreement, sem utilização para quaisquer terceiros.",
+          "en": "The Founder Performance Pool (10%) is created exclusively to support delivery of the Beneficiary’s Performance Equity under the Performance Equity Agreement, and may not be used for any third parties."
+        },
+        {
+          "ref": "6.2",
+          "pt": "Caso, por exigência de investidores em rodadas futuras, seja necessário evitar diluição de investidores por recomposição de pools, as Partes reconhecem que tais ajustes deverão ser financiados exclusivamente pelos Founders (por transferência/surrender de Common), conforme previsto nos instrumentos aplicáveis.",
+          "en": "If, due to investor requirements in future rounds, it becomes necessary to avoid investor dilution from pool refresh, the Parties acknowledge such adjustments shall be funded exclusively by the Founders (through transfer/surrender of Common), as provided in the applicable instruments."
+        }
+      ]
+    },
+    {
+      "ref": "7",
+      "title": {
+        "pt": "Schedule A — Resumo de Pools e Base FD (60M)",
+        "en": "Schedule A — Pool Summary and FD Basis (60M)"
+      },
+      "clauses": [
+        {
+          "ref": null,
+          "pt": "Schedule A (Total Authorized Common = 60.000.000)\nAdvisor Pool (3%): 1.800.000\nTalent Pool (5%): 3.000.000\nFounder Performance Pool (10%): 6.000.000 (exclusivo Beneficiário)\nTotal Pools (18%): 10.800.000\nFounders (post-pools, pre-sale): 49.200.000",
+          "en": "Schedule A (Total Authorized Common = 60,000,000)\nAdvisor Pool (3%): 1,800,000\nTalent Pool (5%): 3,000,000\nFounder Performance Pool (10%): 6,000,000 (exclusive to Beneficiary)\nTotal Pools (18%): 10,800,000\nFounders (post-pools, pre-sale): 49,200,000"
+        }
+      ]
+    },
+    {
+      "ref": "8",
+      "title": {
+        "pt": "Schedule B — Cap Table Alvo Pós-Compra (5%)",
+        "en": "Schedule B — Target Post-Purchase Cap Table (5%)"
+      },
+      "clauses": [
+        {
+          "ref": null,
+          "pt": "Schedule B (após compra 5% = 3.000.000 Common)\nBeneficiário/Comprador: 3.000.000 (5,00%)\nFounders remanescentes: 46.200.000 (77,00%)\nPools (total): 10.800.000 (18,00%)\n\nAlocação pro-rata Founders (75/25) — referência\nE: 36.900.000 → após venda 34.650.000\nR: 12.300.000 → após venda 11.550.000",
+          "en": "Schedule B (after 5% purchase = 3,000,000 Common)\nBeneficiary/Buyer: 3,000,000 (5.00%)\nFounders remaining: 46,200,000 (77.00%)\nTotal Pools: 10,800,000 (18.00%)\n\nFounder pro-rata allocation (75/25) — reference\nE: 36,900,000 → after sale 34,650,000\nR: 12,300,000 → after sale 11,550,000"
+        }
+      ]
+    },
+    {
+      "ref": "9",
+      "title": {
+        "pt": "Aprovação e Formalização",
+        "en": "Approval and Formalization"
+      },
+      "clauses": [
+        {
+          "ref": "9.1",
+          "pt": "Este Instrumento deverá ser aprovado e assinado pelos Founders e pela Empresa, com ata/alteração societária e/ou Plano de Incentivo, conforme aplicável.",
+          "en": "This Instrument shall be approved and executed by the Founders and the Company, supported by corporate resolutions/amendments and/or an Incentive Plan, as applicable."
+        },
+        {
+          "ref": "9.2",
+          "pt": "Este Instrumento vincula as Partes e deverá ser considerado documento-base de governança de cap table para o Equity Purchase Agreement e o Performance Equity Agreement.",
+          "en": "This Instrument binds the Parties and shall serve as cap table governance baseline for the Equity Purchase Agreement and the Performance Equity Agreement."
+        }
+      ]
+    }
+  ],
+  "language_rule": {
+    "prevailing_language": "pt-BR",
+    "pt": "Em caso de divergência interpretativa entre as versões em português e inglês deste Instrumento, prevalecerá a versão em português.",
+    "en": "In the event of any inconsistency between the Portuguese and English versions of this Instrument, the Portuguese version shall prevail."
+  },
+  "execution": {
+    "status": "draft",
+    "signature_standard": "icp_brasil_qualified",
+    "signed_at": null,
+    "provider": null,
+    "evidence": {
+      "sha256": null,
+      "validation_report": null,
+      "registry_protocol": null
+    }
+  }
+}

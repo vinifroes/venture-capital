@@ -1,0 +1,380 @@
+{
+  "id": "2026-02-10-equity-purchase-agreement-eliel-vinicyus",
+  "standard_version": "1.1",
+  "meta": {
+    "status": "draft",
+    "generated_on": "1970-01-01",
+    "source": {
+      "path": "src/documents_drafts/2026.02.10 Equity Purchase Agreement/Equity Purchase Agreement - Eliel + Vinicyus.md",
+      "format": "markdown"
+    }
+  },
+  "timeline": {
+    "stage_date": "2026-02-10",
+    "stage_name": "Foundation Realignment",
+    "execution_date": "2026-02-10"
+  },
+  "document": {
+    "type": "equity_purchase_agreement",
+    "title": {
+      "pt": "Contrato de Compra e Venda de Participação Societária",
+      "en": "Equity Purchase Agreement"
+    },
+    "language": {
+      "primary": "pt-BR",
+      "secondary": "en-US",
+      "prevailing": "pt-BR"
+    }
+  },
+  "parties": [
+    {
+      "name": "Eliel Divino de Oliveira",
+      "labels": [
+        {
+          "pt": "O “Vendedor”",
+          "en": "The “Seller”"
+        }
+      ],
+      "tax_id": "039.060.831-95",
+      "email": "eliel@hagelab.com.br",
+      "phone": "+55 (62) 9 9635 7903"
+    },
+    {
+      "name": "Vinicyus Froes Ribeiro",
+      "labels": [
+        {
+          "pt": "O “Comprador”",
+          "en": "The “Buyer”"
+        }
+      ],
+      "tax_id": "026.606.771-90",
+      "email": "vinicyus@hagelab.com.br",
+      "phone": "+55 (62) 9 8140 0497"
+    },
+    {
+      "name": "Hage Sistemas",
+      "labels": [
+        {
+          "pt": "a “Empresa”",
+          "en": "the “Company”"
+        }
+      ],
+      "tax_id": "44.615.747/0001-20"
+    }
+  ],
+  "intro": [
+    {
+      "ref": null,
+      "pt": "Este Contrato de Compra e Venda Secundária de Participação Societária (“Contrato”) é celebrado em 10 de fevereiro de 2026, por e entre as partes acima qualificadas.",
+      "en": "This Secondary Equity Purchase Agreement (“Agreement”) is entered into as of February 10, 2026, by and between the parties described above."
+    },
+    {
+      "ref": null,
+      "pt": "As partes reconhecem que o presente instrumento é celebrado em versão bilíngue, em português e inglês. Em caso de qualquer divergência, conflito de interpretação ou ambiguidade entre as versões, prevalecerá exclusivamente a versão redigida em português, para todos os fins de direito.",
+      "en": "The Parties acknowledge that this Agreement is executed in a bilingual format, in Portuguese and English. In the event of any divergence, inconsistency, or ambiguity between the two versions, the Portuguese version shall prevail for all legal purposes."
+    }
+  ],
+  "sections": [
+    {
+      "ref": "1",
+      "title": {
+        "pt": "Objeto",
+        "en": "Purchase and Sale of Equity Interests"
+      },
+      "clauses": [
+        {
+          "ref": "1.1",
+          "pt": "O Vendedor compromete-se a vender ao Comprador, e este a adquirir, participação societária correspondente a 3,75% (três vírgula setenta e cinco por cento) do capital social totalmente diluído da Sociedade na presente data (“Participação”).",
+          "en": "Seller agrees to sell to Buyer, and Buyer agrees to purchase, equity interests representing 3.75% (three point seven five percent) of the Company’s fully diluted capitalization as of the date hereof (the “Equity Interests”)."
+        },
+        {
+          "ref": "1.2",
+          "pt": "Para fins deste Contrato, “Participação” significa quotas, ações ou qualquer outra forma de participação societária aplicável conforme a natureza jurídica da Sociedade.",
+          "en": "For purposes of this Agreement, “Equity Interests” means quotas, shares, or any other ownership interests, as applicable under the Company’s governing documents and jurisdiction."
+        }
+      ]
+    },
+    {
+      "ref": "2",
+      "title": {
+        "pt": "Preço",
+        "en": "Purchase Price"
+      },
+      "clauses": [
+        {
+          "ref": "2.1",
+          "pt": "O preço total da operação será de R$ 300.000,00 (trezentos mil reais) (“Preço”).",
+          "en": "The aggregate purchase price shall be BRL 300,000.00 (three hundred thousand Brazilian reais) (the “Purchase Price”)."
+        }
+      ]
+    },
+    {
+      "ref": "3",
+      "title": {
+        "pt": "Condições de Pagamento",
+        "en": "Payment Terms"
+      },
+      "clauses": [
+        {
+          "ref": "3.1",
+          "pt": "O Preço deverá ser integralmente pago até 10 de maio de 2026.",
+          "en": "The Purchase Price shall be paid in full on or before May 10, 2026."
+        },
+        {
+          "ref": "3.2",
+          "pt": "O não pagamento até essa data não implicará rescisão automática deste Contrato, podendo o Vendedor exigir cumprimento específico, execução judicial ou renegociação formal mediante notificação escrita.",
+          "en": "Failure to pay shall not automatically rescind this Agreement. Seller may pursue specific performance, judicial enforcement, or formal renegotiation upon written notice."
+        }
+      ]
+    },
+    {
+      "ref": "4",
+      "title": {
+        "pt": "Fechamento",
+        "en": "Closing"
+      },
+      "clauses": [
+        {
+          "ref": "4.1",
+          "pt": "O fechamento da operação ocorre na data do dia 10/02/2026.",
+          "en": "The Closing shall occur on February 10, 2026."
+        },
+        {
+          "ref": "4.2",
+          "pt": "Na data do fechamento: (i) o Vendedor assinará os documentos necessários à cessão da Participação; (ii) a Sociedade atualizará seus registros societários e cap table; (iii) o Comprador será reconhecido como sócio para todos os fins econômicos e políticos; (iv) se necessário, será providenciada alteração contratual e registro perante a Junta Comercial.",
+          "en": "At Closing: (i) Seller shall execute all necessary transfer documents; (ii) the Company shall update its corporate records and capitalization table; (iii) Buyer shall be recognized as equity holder for all economic and governance purposes; (iv) if required, the appropriate corporate amendment shall be registered."
+        }
+      ]
+    },
+    {
+      "ref": "5",
+      "title": {
+        "pt": "Declarações do Vendedor",
+        "en": "Representations and Warranties of Seller"
+      },
+      "clauses": [
+        {
+          "ref": "5.1",
+          "pt": "O Vendedor declara ser legítimo titular da Participação.",
+          "en": "Seller represents that he is the lawful owner of the Equity Interests."
+        },
+        {
+          "ref": "5.2",
+          "pt": "A Participação encontra-se livre e desembaraçada de ônus, gravames ou restrições.",
+          "en": "The Equity Interests are free and clear of liens, encumbrances, or restrictions."
+        },
+        {
+          "ref": "5.3",
+          "pt": "A presente operação não viola qualquer obrigação contratual assumida pelo Vendedor.",
+          "en": "This transaction does not violate any agreement binding upon Seller."
+        }
+      ]
+    },
+    {
+      "ref": "6",
+      "title": {
+        "pt": "Declarações do Comprador",
+        "en": "Representations of Buyer"
+      },
+      "clauses": [
+        {
+          "ref": "6.1",
+          "pt": "O Comprador adquire a Participação para fins de investimento.",
+          "en": "Buyer is acquiring the Equity Interests for investment purposes."
+        },
+        {
+          "ref": "6.2",
+          "pt": "O Comprador declara ciência de que a Participação poderá estar sujeita a restrições legais aplicáveis.",
+          "en": "Buyer understands that the Equity Interests may be subject to applicable legal restrictions."
+        }
+      ]
+    },
+    {
+      "ref": "7",
+      "title": {
+        "pt": "Direitos Políticos e Econômicos",
+        "en": "Governance and Economic Rights"
+      },
+      "clauses": [
+        {
+          "ref": "7.1",
+          "pt": "A partir da data de assinatura deste Contrato, o Comprador será reconhecido como titular da Participação para todos os fins societários, inclusive exercício de direito de voto proporcional, participação em deliberações, assembleias ou reuniões de sócios.",
+          "en": "As of the date of execution of this Agreement, Buyer shall be recognized as holder of the Equity Interests for all corporate purposes, including proportional voting rights and participation in shareholder or quotaholder meetings."
+        },
+        {
+          "ref": "7.2",
+          "pt": "O Comprador fará jus aos direitos econômicos inerentes à Participação, observada a restrição temporária prevista abaixo.",
+          "en": "Buyer shall be entitled to the economic rights attached to the Equity Interests, subject to the temporary restriction set forth below."
+        },
+        {
+          "ref": null,
+          "pt": "O Comprador não fará jus a lucros, dividendos ou quaisquer distribuições declaradas pela Sociedade antes do pagamento integral do Preço.",
+          "en": "Buyer shall not be entitled to receive dividends, profit distributions, or any other distributions declared prior to full payment of the Purchase Price."
+        },
+        {
+          "ref": null,
+          "pt": "Tais valores permanecerão de titularidade do Vendedor.",
+          "en": "Such amounts shall remain the property of Seller."
+        },
+        {
+          "ref": null,
+          "pt": "Após o pagamento integral, o Comprador fará jus apenas às distribuições futuras, sem efeito retroativo.",
+          "en": "After full payment, Buyer shall be entitled only to future distributions, without retroactive effect."
+        }
+      ]
+    },
+    {
+      "ref": "8",
+      "title": {
+        "pt": "Direito de Acompanhamento (Tag Along)",
+        "en": "Tag Along Rights"
+      },
+      "clauses": [
+        {
+          "ref": "8.1",
+          "pt": "Caso ocorra alienação de participação societária que resulte em mudança de controle da Sociedade, o Comprador terá direito de participar da operação, proporcionalmente à sua Participação, nas mesmas condições econômicas e contratuais oferecidas a outros sócios.",
+          "en": "In the event of any transfer of equity resulting in a change of control of the Company, Buyer shall have the right to participate in such transaction, pro rata to its Equity Interests, under the same economic and contractual terms offered to other equity holders."
+        }
+      ]
+    },
+    {
+      "ref": "9",
+      "title": {
+        "pt": "Direito à Informação",
+        "en": "Information Rights"
+      },
+      "clauses": [
+        {
+          "ref": "9.1",
+          "pt": "O Comprador terá direito a receber demonstrações financeiras anuais auditadas (se aplicável), relatórios gerenciais trimestrais e informações relevantes sobre a situação econômico-financeira da Sociedade.",
+          "en": "Buyer shall be entitled to receive annual financial statements (audited, if applicable), quarterly management reports, and relevant information regarding the Company’s financial condition."
+        },
+        {
+          "ref": "9.2",
+          "pt": "O Comprador será notificado previamente sobre quaisquer rodadas de investimento, emissão de novas participações ou eventos de liquidez.",
+          "en": "Buyer shall receive prior notice of any financing rounds, issuance of new equity interests, or liquidity events."
+        }
+      ]
+    },
+    {
+      "ref": "10",
+      "title": {
+        "pt": "Diluição",
+        "en": "Dilution"
+      },
+      "clauses": [
+        {
+          "ref": "10.1",
+          "pt": "A Participação estará sujeita à diluição decorrente de futuras emissões de quotas, ações ou outros instrumentos conversíveis, nos termos aprovados pelos sócios da Sociedade.",
+          "en": "The Equity Interests shall be subject to dilution resulting from future issuances of quotas, shares, or convertible instruments approved by the Company’s equity holders."
+        }
+      ]
+    },
+    {
+      "ref": "11",
+      "title": {
+        "pt": "Rodada Antes do Pagamento",
+        "en": "Financing Prior to Payment"
+      },
+      "clauses": [
+        {
+          "ref": "11.1",
+          "pt": "Caso a Sociedade realize rodada de investimento antes da quitação integral do Preço, a Participação do Comprador será considerada como integralmente adquirida para fins de cálculo percentual na estrutura societária.",
+          "en": "If the Company consummates any financing transaction prior to full payment of the Purchase Price, Buyer’s Equity Interests shall be deemed fully acquired for purposes of percentage calculation."
+        },
+        {
+          "ref": "11.2",
+          "pt": "O Preço permanecerá devido nos termos deste Contrato.",
+          "en": "The Purchase Price shall remain payable in accordance with this Agreement."
+        }
+      ]
+    },
+    {
+      "ref": "12",
+      "title": {
+        "pt": "Reorganização Societária ou Migração Internacional",
+        "en": "Corporate Reorganization or International Migration"
+      },
+      "clauses": [
+        {
+          "ref": "12.1",
+          "pt": "Caso a Sociedade seja incorporada, fundida, cindida, reorganizada, tenha sua estrutura alterada, passe a operar sob holding ou seja redomiciliada para o Estado de Delaware ou qualquer outra jurisdição, a Participação será automaticamente convertida em participação equivalente na entidade sucessora, preservando integralmente os direitos econômicos e políticos aqui previstos.",
+          "en": "In the event the Company is merged, incorporated, spun-off, reorganized, placed under a holding structure, or redomiciled to the State of Delaware or any other jurisdiction, the Equity Interests shall automatically convert into equivalent equity in the successor entity, preserving all economic and governance rights provided herein."
+        },
+        {
+          "ref": "12.2",
+          "pt": "As partes comprometem-se a praticar todos os atos necessários para formalizar tal continuidade.",
+          "en": "The Parties agree to execute all necessary documents to formalize such continuity."
+        }
+      ]
+    },
+    {
+      "ref": "13",
+      "title": {
+        "pt": "Inadimplemento",
+        "en": "Default"
+      },
+      "clauses": [
+        {
+          "ref": "13.1",
+          "pt": "Caso o Comprador deixe de cumprir suas obrigações de pagamento e não regularize no prazo de 15 (quinze) dias após notificação escrita, o Vendedor poderá buscar o cumprimento específico da obrigação, execução judicial ou outras medidas previstas em lei.",
+          "en": "If Buyer fails to perform its payment obligations and does not cure within fifteen (15) days after written notice, Seller may pursue specific performance, judicial enforcement, or other lawful remedies."
+        }
+      ]
+    },
+    {
+      "ref": "14",
+      "title": {
+        "pt": "Lei Aplicável",
+        "en": "Governing Law"
+      },
+      "clauses": [
+        {
+          "ref": "14.1",
+          "pt": "Este Contrato será regido pelas leis da República Federativa do Brasil.",
+          "en": "This Agreement shall be governed by the laws of the Federative Republic of Brazil."
+        },
+        {
+          "ref": "14.2",
+          "pt": "Caso a Sociedade venha a se tornar incorporada no Estado de Delaware, este Contrato poderá ser interpretado conforme a legislação daquele Estado, preservados os direitos já constituídos.",
+          "en": "If the Company becomes incorporated in the State of Delaware, this Agreement may thereafter be interpreted in accordance with Delaware law, without prejudice to vested rights."
+        }
+      ]
+    },
+    {
+      "ref": "15",
+      "title": {
+        "pt": "Foro",
+        "en": "Jurisdiction"
+      },
+      "clauses": [
+        {
+          "ref": "15.1",
+          "pt": "Fica eleito o foro da comarca de Goiânia-GO, Brasil, para dirimir quaisquer controvérsias decorrentes deste Contrato.",
+          "en": "The courts of Goiânia-GO, Brazil shall have jurisdiction over disputes arising from this Agreement."
+        },
+        {
+          "ref": "15.2",
+          "pt": "Após eventual migração para Delaware, as partes poderão submeter controvérsias à Delaware Court of Chancery, sem prejuízo dos direitos adquiridos sob a legislação brasileira.",
+          "en": "Following migration to Delaware, the Parties may submit disputes to the Delaware Court of Chancery, without prejudice to rights acquired under Brazilian law."
+        }
+      ]
+    }
+  ],
+  "language_rule": {
+    "prevailing_language": "pt-BR",
+    "pt": "As partes reconhecem que o presente instrumento é celebrado em versão bilíngue, em português e inglês. Em caso de qualquer divergência, conflito de interpretação ou ambiguidade entre as versões, prevalecerá exclusivamente a versão redigida em português, para todos os fins de direito.",
+    "en": "The Parties acknowledge that this Agreement is executed in a bilingual format, in Portuguese and English. In the event of any divergence, inconsistency, or ambiguity between the two versions, the Portuguese version shall prevail for all legal purposes."
+  },
+  "execution": {
+    "status": "draft",
+    "signature_standard": "icp_brasil_qualified",
+    "signed_at": null,
+    "provider": null,
+    "evidence": {
+      "sha256": null,
+      "validation_report": null,
+      "registry_protocol": null
+    }
+  }
+}
