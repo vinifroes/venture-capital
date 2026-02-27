@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
+__pycache__/
+*.pyc
 
 # Editor directories and files
 .vscode/*
@@ -22,10 +24,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# Legal evidence payloads (keep templates/docs only)
-legal_evidence/**
-!legal_evidence/
-!legal_evidence/README.md
-!legal_evidence/_templates/
-!legal_evidence/_templates/signature-manifest.template.json

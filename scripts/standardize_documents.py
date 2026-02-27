@@ -11,6 +11,12 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
+from execution_manifests import (
+    ManifestValidationError,
+    build_execution_overlay,
+    load_active_manifests,
+)
+
 ROOT = Path(__file__).resolve().parents[1]
 STANDARD_VERSION = "1.1"
 VALID_EXECUTION_STATUSES = {"draft", "awaiting_signatures", "signed", "registered"}
@@ -350,7 +356,10 @@ def parse_parties(header_lines: list[str]) -> list[dict[str, Any]]:
     return parties
 
 
-def parse_markdown_document(config: MarkdownDocumentConfig) -> dict[str, Any]:
+def parse_markdown_document(
+    config: MarkdownDocumentConfig,
+    execution_overrides: dict[str, dict[str, Any]],
+) -> dict[str, Any]:
     source_path = ROOT / config.source
     content = source_path.read_text(encoding="utf-8")
     lines = content.splitlines()
@@ -453,7 +462,7 @@ def parse_markdown_document(config: MarkdownDocumentConfig) -> dict[str, Any]:
         else:
             current_section["clauses"].extend(split_clauses)
 
-    return {
+    payload = {
         "id": config.id,
         "standard_version": STANDARD_VERSION,
         "meta": {
@@ -487,6 +496,12 @@ def parse_markdown_document(config: MarkdownDocumentConfig) -> dict[str, Any]:
         "language_rule": language_rule,
         "execution": build_execution_block(config.status),
     }
+
+    if config.status != "legacy-model" and config.id in execution_overrides:
+        payload["execution"] = execution_overrides[config.id]
+        payload["meta"]["status"] = execution_overrides[config.id]["status"]
+
+    return payload
 
 
 def build_legacy_pdf_placeholder(config: LegacyPdfConfig) -> dict[str, Any]:
@@ -538,12 +553,36 @@ def write_json(path: Path, payload: dict[str, Any]) -> None:
 
 
 def main() -> None:
+    try:
+        active_manifests = load_active_manifests(ROOT)
+    except ManifestValidationError as exc:
+        raise ValueError(f"Execution manifest validation failed:\n{exc}") from exc
+
+    known_active_document_ids = {
+        config.id for config in MARKDOWN_DOCUMENTS if config.status != "legacy-model"
+    }
+    unknown_manifest_documents = sorted(set(active_manifests) - known_active_document_ids)
+    if unknown_manifest_documents:
+        raise ValueError(
+            "active-manifests.json references unknown document ids: "
+            + ", ".join(unknown_manifest_documents)
+        )
+
+    execution_overrides = {
+        document_id: build_execution_overlay(manifest)
+        for document_id, manifest in active_manifests.items()
+    }
+
     generated_index: list[dict[str, Any]] = []
 
     for config in MARKDOWN_DOCUMENTS:
-        payload = parse_markdown_document(config)
+        payload = parse_markdown_document(config, execution_overrides)
         output_path = ROOT / config.output
         write_json(output_path, payload)
+
+        entry_status = config.status
+        if config.status != "legacy-model":
+            entry_status = payload["execution"]["status"]
 
         generated_index.append(
             {
@@ -552,7 +591,7 @@ def main() -> None:
                 "stage_date": config.stage_date,
                 "stage_name": config.stage_name,
                 "type": config.document_type,
-                "status": config.status,
+                "status": entry_status,
                 "source": config.source,
             }
         )

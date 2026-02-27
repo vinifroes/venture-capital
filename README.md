@@ -31,10 +31,11 @@ npm run ci:verify
 
 This command mirrors the CI quality gate:
 
-1. Build JSON from Markdown.
-2. Verify generated JSON is committed.
-3. Run lint.
-4. Build app.
+1. Validate execution manifests.
+2. Build JSON from Markdown.
+3. Verify generated JSON is committed.
+4. Run lint.
+5. Build app.
 
 ## Publishing to GitHub (Public Repository)
 
@@ -61,7 +62,7 @@ Operational runbook: [`docs/GITOPS_RUNBOOK.md`](docs/GITOPS_RUNBOOK.md).
 
 - `ci.yml`
   - Trigger: PR to `develop` and `main`, and push to `develop` and `main`
-  - Runs: `documents:build`, generated-files diff check, lint, build
+  - Runs: `documents:validate-execution`, `documents:build`, generated-files diff check, lint, build
 - `deploy-pages.yml`
   - Trigger: push on `develop` and `main`, and manual dispatch
   - Branch strategy:
@@ -76,6 +77,7 @@ Operational runbook: [`docs/GITOPS_RUNBOOK.md`](docs/GITOPS_RUNBOOK.md).
 The repository includes governance for qualified digital signatures and evidence tracking.
 
 - Legal execution process and checklist: [`docs/LEGAL_EXECUTION.md`](docs/LEGAL_EXECUTION.md)
+- Stakeholder operational flow: [`docs/ICP_STAKEHOLDER_FLOW.md`](docs/ICP_STAKEHOLDER_FLOW.md)
 - Evidence templates and structure: [`legal_evidence/README.md`](legal_evidence/README.md)
 
 ## Documents JSON

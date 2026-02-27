@@ -58,3 +58,14 @@ git push -u origin main
 git checkout -b develop
 git push -u origin develop
 ```
+
+## 7) ICP Execution Governance
+
+- Follow the operational flow in [`ICP_STAKEHOLDER_FLOW.md`](./ICP_STAKEHOLDER_FLOW.md).
+- PRs for legal execution updates must include:
+  - evidence bundle under `legal_evidence/<document-id>/<version>/`
+  - `signature-manifest.json`
+  - `legal_evidence/active-manifests.json` update
+  - regenerated `src/documents_json/**` outputs
+- Use commit message pattern:
+  - `legal(exec): <document-id> -> <status>`

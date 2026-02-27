@@ -2,6 +2,10 @@
 
 This guide defines the digital legal execution flow for societary instruments in Brazil using **qualified electronic signatures (ICP-Brasil)**.
 
+Operational playbook:
+
+- [`docs/ICP_STAKEHOLDER_FLOW.md`](./ICP_STAKEHOLDER_FLOW.md)
+
 ## Scope
 
 Use this process for critical instruments (e.g., shareholders agreements, equity transfers, governance amendments).
@@ -55,10 +59,10 @@ Rules:
 
 ## LGPD Controls
 
-- Keep repository private.
-- Restrict access by role (least privilege).
+- Repository is currently public by explicit governance decision.
+- Evidence publication in git is an explicit risk-accepted mode and must be approved by stakeholders/legal counsel.
 - Define retention period and access review cadence.
-- Avoid exposing personal data externally without legal basis.
+- Avoid exposing additional personal data beyond what is required for legal execution evidence.
 
 ## Compliance Notes
 

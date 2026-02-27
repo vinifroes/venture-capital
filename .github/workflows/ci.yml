@@ -34,6 +34,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Validate execution manifests
+        run: python3 scripts/validate_execution_manifests.py
+
       - name: Build JSON documents from Markdown
         env:
           SOURCE_DATE_EPOCH: "0"

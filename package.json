@@ -10,8 +10,9 @@
     "build:prod": "VITE_BASE_PATH=${VITE_BASE_PATH:-/} vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "documents:validate-execution": "python3 scripts/validate_execution_manifests.py",
     "documents:build": "python3 scripts/standardize_documents.py",
-    "ci:verify": "SOURCE_DATE_EPOCH=0 npm run documents:build && git diff --exit-code -- src/documents_json src/documents_json/index.json && npm run lint && npm run build"
+    "ci:verify": "SOURCE_DATE_EPOCH=0 npm run documents:validate-execution && npm run documents:build && git diff --exit-code -- src/documents_json src/documents_json/index.json && npm run lint && npm run build"
   },
   "dependencies": {
     "react": "^19.2.0",

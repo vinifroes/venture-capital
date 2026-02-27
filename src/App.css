@@ -1,13 +1,13 @@
 :root {
-  --ink: #102137;
+  --ink: #091b31;
   --muted: #55637a;
-  --surface: #fffdf7;
+  --surface: #f0f0f0;
   --panel: #ffffff;
   --line: #d6dee8;
-  --accent: #0e63ff;
-  --accent-soft: #e3ecff;
-  --warm: #ff8a1f;
-  --teal: #0f8a8a;
+  --accent: #1567ff;
+  --accent-soft: #d6e3ff;
+  --warm: #11a8ff;
+  --teal: #00d8d8;
   --shadow: 0 16px 38px rgba(7, 30, 73, 0.12);
 }
 
@@ -32,9 +32,9 @@ body {
   position: fixed;
   inset: -200px;
   background:
-    radial-gradient(circle at 15% 15%, rgba(255, 138, 31, 0.18), transparent 38%),
-    radial-gradient(circle at 85% 12%, rgba(14, 99, 255, 0.2), transparent 42%),
-    radial-gradient(circle at 40% 88%, rgba(15, 138, 138, 0.14), transparent 42%),
+    radial-gradient(circle at 15% 15%, rgba(31, 229, 255, 0.18), transparent 38%),
+    radial-gradient(circle at 85% 12%, rgba(1, 90, 255, 0.2), transparent 42%),
+    radial-gradient(circle at 40% 88%, rgba(79, 15, 138, 0.14), transparent 42%),
     linear-gradient(180deg, #fffef9 0%, #f5f9ff 60%, #f8fffc 100%);
   z-index: 0;
   animation: drift 18s linear infinite alternate;

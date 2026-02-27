@@ -6,6 +6,7 @@ Use this directory for legal execution evidence bundles, keeping one folder per 
 
 ```text
 legal_evidence/
+  active-manifests.json
   <document-id>/
     <version>/
       signed.pdf
@@ -17,8 +18,8 @@ legal_evidence/
 
 ## Notes
 
-- Real evidence payload files are ignored by `.gitignore`.
-- Only templates and this README are tracked in git by default.
+- Evidence payload files are versioned in git by repository policy.
+- `active-manifests.json` maps each active `document_id` to its current manifest path.
 - For each signed document, keep evidence synchronized with JSON `execution` metadata fields.
 
 Template manifest:

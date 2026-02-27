@@ -7,6 +7,7 @@ This folder stores one normalized JSON file per legal document for long-term mai
 From the project root:
 
 ```bash
+npm run documents:validate-execution
 npm run documents:build
 ```
 
@@ -48,4 +49,6 @@ Each document file follows this top-level structure:
 - `generated_on` is deterministic:
   - Uses `SOURCE_DATE_EPOCH` when provided.
   - Falls back to `1970-01-01` for reproducible output.
+- `execution` metadata can be overlaid from active ICP manifests in:
+  - `legal_evidence/active-manifests.json`
 - The generator script is `scripts/standardize_documents.py`.

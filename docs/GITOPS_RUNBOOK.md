@@ -204,4 +204,9 @@ npm run ci:verify
 - Do not push directly to `gh-pages`.
 - Keep deploy logic centralized in `.github/workflows/deploy-pages.yml`.
 - Keep CI deterministic with `SOURCE_DATE_EPOCH=0`.
+- Keep legal execution updates manifest-driven:
+  - update evidence bundle + manifest + `active-manifests.json`
+  - avoid manual edits in `execution` fields without manifest change
+- For ICP stakeholder flow, follow:
+  - [`ICP_STAKEHOLDER_FLOW.md`](./ICP_STAKEHOLDER_FLOW.md)
 - Update this runbook whenever workflow behavior changes.
